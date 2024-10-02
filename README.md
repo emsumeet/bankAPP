@@ -32,13 +32,17 @@ User.java
 
 Compile the files using the following command:
 bash
+
 //Copy code
+
 javac *.java
 
 Step 3: Run the Application
 After compiling, you can run the ATM class to start the application:
 bash
+
 //Copy code
+
 java ATM
 
 Step 4: Interacting with the Application
@@ -49,6 +53,7 @@ Follow the on-screen prompts to complete each action.
 
 
 Code Flow Explanation
+
 Main Class (ATM.java):
 The main entry point of the application.
 Initializes the bank and creates a default user and account.
@@ -56,16 +61,22 @@ Displays the main menu and handles user input for various banking operations.
 
 User Login:
 Prompts the user for their ID and PIN.
+
 Validates the credentials using the userLogin method from the Bank class.
 
 User Menu:
 Displays the user's account summary and options for transactions.
+
 Calls specific methods (showTransHistory, withdrawFunds, depositFunds, transferFunds) based on user selection.
 
 Transaction Methods:
+
 Show Transaction History: Displays all transactions for a selected account.
+
 Withdraw Funds: Allows the user to withdraw money from their account, validating available balance and recording the transaction.
+
 Deposit Funds: Similar to withdrawal but adds money to the selected account.
+
 Transfer Funds: Facilitates transferring money between accounts, ensuring sufficient balance before processing.
 
 Transaction Management:
