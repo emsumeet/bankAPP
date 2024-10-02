@@ -18,8 +18,11 @@ Running the Application
 
 Step 1: Clone the Repository
 bash
+
 //Copy code
+
 git clone https://github.com/emsumeet/bankAPP.git
+
 cd bankAPP
 
 Step 2: Compile the Java Files
