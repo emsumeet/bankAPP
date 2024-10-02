@@ -15,11 +15,13 @@ Java Development Kit (JDK) (version 11 or higher)
 A suitable IDE or text editor (e.g., IntelliJ IDEA, Eclipse, or Visual Studio Code)
 
 Running the Application
+
 Step 1: Clone the Repository
 bash
 //Copy code
 git clone https://github.com/emsumeet/bankAPP.git
 cd bankAPP
+
 Step 2: Compile the Java Files
 Ensure you have all the necessary Java files in the same directory. The essential files are:
 ATM.java
@@ -38,6 +40,7 @@ After compiling, you can run the ATM class to start the application:
 bash
 //Copy code
 java ATM
+
 Step 4: Interacting with the Application
 
 Upon starting, you will be prompted to enter your user ID and PIN to log in.
